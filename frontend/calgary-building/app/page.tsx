@@ -143,12 +143,12 @@ const handleQuery = async (q: string) => {
     <div className="flex h-screen">
       {/* Sidebar */}
       <div className="w-80 p-4 space-y-4 overflow-y-auto bg-gray-50">
-        <ProjectManager
+        {/* <ProjectManager
           currentFilters={currentFilters}
           fetchProjects={fetchProjects}
           onSaveProject={onSaveProject}
           onLoadProject={onLoadProject}
-        />
+        /> */}
 
         <QueryPanel
           onQuery={handleQuery}
