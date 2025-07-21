@@ -2,6 +2,11 @@
 
 A sophisticated web-based 3D visualization dashboard for Calgary city data with natural language querying powered by LLM integration.
 
+## Watch Demo on Youtube
+https://youtu.be/gc8eMPmicE0
+<img width="1905" height="1042" alt="Screenshot 2025-07-21 at 4 10 01 PM" src="https://github.com/user-attachments/assets/47076314-c69f-4b79-98c0-a6664ca6eabc" />
+
+
 ## 🎯 Features
 
 #### Current Features
