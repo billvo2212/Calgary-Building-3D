@@ -65,7 +65,7 @@ class CalgaryDataService:
         base_lat, base_lng = 51.0447, -114.0719
         mock_buildings = []
 
-        for i in range(100):
+        for i in range(count):
             lat_offset = random.uniform(-0.01, 0.01)
             lng_offset = random.uniform(-0.01, 0.01)
             mock_buildings.append({

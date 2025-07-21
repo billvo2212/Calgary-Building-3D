@@ -142,7 +142,7 @@ const handleQuery = async (q: string) => {
   return (
     <div className="flex h-screen">
       {/* Sidebar */}
-      <div className="w-80 p-4 space-y-4 overflow-y-auto bg-gray-50">
+      <div className="w-1/5 p-4 space-y-4 overflow-y-auto bg-gray-50">
         {/* <ProjectManager
           currentFilters={currentFilters}
           fetchProjects={fetchProjects}
@@ -159,7 +159,7 @@ const handleQuery = async (q: string) => {
       </div>
 
       {/* 3D Scene */}
-      <div className="flex-1 relative">
+      <div className="w-4/5 relative">
         <Scene3D
           buildings={allBuildings}
           highlightedBuildings={highlightedBuildings}
