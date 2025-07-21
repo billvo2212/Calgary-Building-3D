@@ -33,7 +33,7 @@ const BuildingPopup = ({ building, onClose }) => {
           <div className="grid grid-cols-2 gap-4">
             <div>
               <label className="text-sm font-medium text-gray-600">Height</label>
-              <p className="text-gray-900">{building.height} ft</p>
+              <p className="text-gray-900">{building.height*10} ft</p>
             </div>
             
             <div>
