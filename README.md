@@ -4,13 +4,16 @@ A sophisticated web-based 3D visualization dashboard for Calgary city data with 
 
 ## 🎯 Features
 
+#### Current Features
 - **3D City Visualization**: Interactive Three.js rendering of Calgary buildings
 - **Natural Language Queries**: Ask questions like "buildings over 100 feet" or "commercial buildings"
 - **Real-time Data**: Integration with Calgary Open Data API
+
+#### Comming Features
+- **Mobile Responsive**: Touch-friendly controls for mobile devices
 - **Project Persistence**: Save and load your analysis projects
 - **Advanced Analytics**: Building statistics and distribution charts
 - **Export Capabilities**: CSV, JSON, and report generation
-- **Mobile Responsive**: Touch-friendly controls for mobile devices
 
 ## 🏗️ Architecture
 
@@ -19,7 +22,7 @@ A sophisticated web-based 3D visualization dashboard for Calgary city data with 
 - **Backend**: Python Flask, SQLAlchemy, SQLite
 - **LLM**: Hugging Face Inference API with rule-based fallback
 - **Data**: Calgary Open Data API
-- **Deployment**: Vercel (Frontend), Railway (Backend)
+- **Deployment**: Render.com for both (Frontend) and (Backend)
 
 ### System Architecture (intented)
 <img width="1149" height="636" alt="Screenshot 2025-07-21 at 3 29 10 PM" src="https://github.com/user-attachments/assets/49ccebf3-c9b1-4d32-9c11-5b2aaf7d1733" />
