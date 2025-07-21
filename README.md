@@ -21,9 +21,11 @@ A sophisticated web-based 3D visualization dashboard for Calgary city data with 
 - **Data**: Calgary Open Data API
 - **Deployment**: Vercel (Frontend), Railway (Backend)
 
-### System Architecture
+### System Architecture (intented)
+<img width="1149" height="636" alt="Screenshot 2025-07-21 at 3 29 10 PM" src="https://github.com/user-attachments/assets/49ccebf3-c9b1-4d32-9c11-5b2aaf7d1733" />
 
-## 🚀 Quick Start
+
+## 🚀 Quick Start for Development
 
 ### Prerequisites
 - Node.js 18+ and npm
@@ -34,4 +36,18 @@ A sophisticated web-based 3D visualization dashboard for Calgary city data with 
 ```bash
 git clone https://github.com/billvo2212/Calgary-Building-3D.git
 cd Calgary-Building-3D
+```
+
+### 2. Start backend services
+```bash
+cd backend
+pip install -r requirement.txt
+python3 app.py
+```
+
+### 3. Start frontend pages
+```bash
+cd frontend
+npm i
+npm run dev
 ```
